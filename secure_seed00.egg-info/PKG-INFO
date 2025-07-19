@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: secure-seed00
+Version: 1.0.0
+Summary: High-entropy 512-bit Seed Generator using 10 entropy sources for cryptography and PRNG.
+Home-page: https://github.com/nw117722nw1/SecureSeed-Python2
+Author: Nwal
+Author-email: roos1100110022r@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: psutil
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
