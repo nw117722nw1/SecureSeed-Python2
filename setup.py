@@ -8,7 +8,7 @@ setup(
     author_email="roos1100110022r@gmail.com",  # يمكنك وضع بريدك هنا
     description="High-entropy 512-bit Seed Generator using 10 entropy sources for cryptography and PRNG.",
     url="https://github.com/nw117722nw1/SecureSeed-Python2",
-    packages=find_packages(),
+    
     install_requires=[
         "psutil",  # مكتبة لقراءة معلومات النظام (CPU/RAM)
     ],
