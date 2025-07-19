@@ -5,7 +5,7 @@ setup(
     name='secure-seed00',
     version='0.1',
     py_modules=['secure-seed00'],
-
+    author='Nwal',
     author_email='roos1100110022r@gmail.com',
     description='Generate a strong random seed from multiple sources',
     classifiers=[
