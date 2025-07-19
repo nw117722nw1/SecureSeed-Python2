@@ -1,17 +1,9 @@
-
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='secure-seed00',
-    version='0.1',
-    py_modules=['secure-seed00'],
-    author='Nwal',
-    author_email='roos1100110022r@gmail.com',
-    description='Generate a strong random seed from multiple sources',
-    classifiers=[
-        'Programming Language :: Python :: 3',
-        'Operating System :: OS Independent',
-    ],
-    python_requires='>=3.8',
+    name="secure-seed",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=["psutil"],
+    python_requires=">=3.7",
 )
-
