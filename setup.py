@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="secure-seed00",
     version="1.0.0",
+    py_modules=['seed_generator'],
     author="Nwal",
     author_email="roos1100110022r@gmail.com",  # يمكنك وضع بريدك هنا
     description="High-entropy 512-bit Seed Generator using 10 entropy sources for cryptography and PRNG.",
@@ -18,3 +19,4 @@ setup(
         "Operating System :: OS Independent",
     ],
 )
+
